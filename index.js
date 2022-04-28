@@ -51,16 +51,23 @@ const members = [
 // const { name, age } = members
 // console.log(name, age)
 
-console.log("11. Rename properties while destructuring"); 
-var {name: TheName, age: TheAge} = members[0]
-console.log(TheName, TheAge)
+// console.log("11. Rename properties while destructuring"); 
+// var {name: TheName, age: TheAge} = members[0]
+// console.log(TheName, TheAge)
 
-console.log("12. Use spread operator to get remaining properties")
-var {name, ...rest} = members[0]
-console.log(name, rest)
+// console.log("12. Use spread operator to get remaining properties")
+// var {name, ...rest} = members[0]
+// console.log(name, rest)
 
-console.log("13. Use spread and assign new value")
-var {name = ''} = members[0]
-name = 'Ankit Choudhary'
+// console.log("13. Use spread and assign new value")
+// var {name = ''} = members[0]
+// name = 'Ankit Choudhary'
 
-console.log(name)
+console.log("14. Using reduce function on both array and object")
+const membersWithAge = members.reduce((acc, member) => {
+    if (member.age) {
+        acc.push(member)
+    }
+    return acc
+}, [])
+
