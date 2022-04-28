@@ -6,6 +6,7 @@ const getMemberWithMaximumAge = require("./modules/getMaxAge")
 const ageGroups = require("./modules/ageGroups")
 const addNew = require("./modules/addNew")
 const getFirstTwo = require('./modules/getFirstTwo')
+const addNewOnce = require('./modules/addNewOnce')
 const members = [
     { name: 'Vijay Gupta', age: 20 },
     { name: 'Yash Jangid', age: 40 },
@@ -39,5 +40,9 @@ const members = [
 // console.log("7. Add a new member to existing members aray at index 2")
 // console.log(addNew(members))
 
-console.log("8. Get fist two object from the given members")
-console.log(getFirstTwo(members))
+// console.log("8. Get fist two object from the given members")
+// console.log(getFirstTwo(members))
+
+console.log("9. Add new at index 0")
+addNewOnce(members)
+console.log(members)
