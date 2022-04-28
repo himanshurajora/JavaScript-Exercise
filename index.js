@@ -1,4 +1,4 @@
-
+const getAllFirstNames = require('./modules/getAllFirstNames')
 
 const members = [
     { name: 'Vijay Gupta', age: 20 },
@@ -11,3 +11,5 @@ const members = [
 ];
 
 
+
+console.log(getAllFirstNames(members))
