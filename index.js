@@ -7,6 +7,8 @@ const ageGroups = require("./modules/ageGroups")
 const addNew = require("./modules/addNew")
 const getFirstTwo = require('./modules/getFirstTwo')
 const addNewOnce = require('./modules/addNewOnce')
+const withLodash = require('./lodash/index')
+
 const members = [
     { name: 'Vijay Gupta', age: 20 },
     { name: 'Yash Jangid', age: 40 },
@@ -63,11 +65,13 @@ const members = [
 // var {name = ''} = members[0]
 // name = 'Ankit Choudhary'
 
-console.log("14. Using reduce function on both array and object")
-const membersWithAge = members.reduce((acc, member) => {
-    if (member.age) {
-        acc.push(member)
-    }
-    return acc
-}, [])
+// console.log("14. Using reduce function on both array and object")
+// const membersWithAge = members.reduce((acc, member) => {
+//     if (member.age) {
+//         acc.push(member)
+//     }
+//     return acc
+// }, [])
 
+
+withLodash(members)
