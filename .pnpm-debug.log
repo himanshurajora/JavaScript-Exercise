@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: int",
+      "code": "ENOENT",
+      "stack": "Error: not found: int\n    at getNotFoundError (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41576:51)\n    at Function.whichSync [as sync] (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41653:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43218:44)\n    at default_1 (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43227:32)\n    at C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:177995:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\Himanshu\\Desktop\\Files\\Projects",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: int",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: int\n    at getNotFoundError (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41576:51)\n    at Function.whichSync [as sync] (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:41653:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43218:44)\n    at default_1 (C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:43227:32)\n    at C:\\Users\\Himanshu\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.29.1\\node_modules\\pnpm\\dist\\pnpm.cjs:177995:39"
+    }
+  }
+}
