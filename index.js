@@ -3,6 +3,7 @@ const makeLastNameUpperCase = require('./modules/makeLastNameUpperCase')
 const ageFactor = require("./modules/ageFactor")
 const getAverageAge = require("./modules/getAverageAge")
 const getMemberWithMaximumAge = require("./modules/getMaxAge")
+const ageGroups = require("./modules/ageGroups")
 const members = [
     { name: 'Vijay Gupta', age: 20 },
     { name: 'Yash Jangid', age: 40 },
@@ -27,5 +28,8 @@ const members = [
 // console.log("4. Get Average Age")
 // console.log(getAverageAge(members))
 
-console.log("5. Get Member With Maximum Age")
-console.log(getMemberWithMaximumAge(members))
+// console.log("5. Get Member With Maximum Age")
+// console.log(getMemberWithMaximumAge(members))
+
+console.log("6. Devide them into three age groups")
+console.log(ageGroups(members))
