@@ -43,6 +43,12 @@ const members = [
 // console.log("8. Get fist two object from the given members")
 // console.log(getFirstTwo(members))
 
-console.log("9. Add new at index 0")
-addNewOnce(members)
-console.log(members)
+// console.log("9. Add new at index 0")
+// addNewOnce(members)
+// console.log(members)
+
+// 10. Get properties via destructuring
+const { name, age } = members
+console.log(name, age)
+
+
