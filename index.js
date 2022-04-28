@@ -47,8 +47,20 @@ const members = [
 // addNewOnce(members)
 // console.log(members)
 
-// 10. Get properties via destructuring
-const { name, age } = members
-console.log(name, age)
+// console.log("10. Get properties via destructuring")
+// const { name, age } = members
+// console.log(name, age)
 
+console.log("11. Rename properties while destructuring"); 
+var {name: TheName, age: TheAge} = members[0]
+console.log(TheName, TheAge)
 
+console.log("12. Use spread operator to get remaining properties")
+var {name, ...rest} = members[0]
+console.log(name, rest)
+
+console.log("13. Use spread and assign new value")
+var {name = ''} = members[0]
+name = 'Ankit Choudhary'
+
+console.log(name)
