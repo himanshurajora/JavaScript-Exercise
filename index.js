@@ -1,5 +1,5 @@
 const getAllFirstNames = require('./modules/getAllFirstNames')
-
+const makeLastNameUpperCase = require('./modules/makeLastNameUpperCase')
 const members = [
     { name: 'Vijay Gupta', age: 20 },
     { name: 'Yash Jangid', age: 40 },
@@ -12,4 +12,5 @@ const members = [
 
 
 
-console.log(getAllFirstNames(members))
+// console.log(getAllFirstNames(members))
+console.log(makeLastNameUpperCase(members))
